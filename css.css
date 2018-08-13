@@ -1,0 +1,83 @@
+.wrapper{
+    font-family: 'Lobster', cursive;
+    background-color: royalblue;
+  
+}
+
+.task-title{
+    
+    max-width: 580px;
+    position: relative;
+    transform: translateX(15%);
+    padding: 10px;
+    margin: 0 auto;
+   
+}
+.wrapper{
+    border: 3px solid black;
+}
+.text-input,
+.text-input:hover,
+.filterTask{
+    border:none;
+    border-bottom: 2px grey solid;
+    display: block;
+    margin-bottom: 20px;
+    padding:10px 10%;
+    border-radius: 4%;
+    display: inline-block;
+}
+
+.filterTask{
+    margin-bottom: 0;
+}
+form label,
+h2{
+    color:rgba(233, 235, 230, 0.945);
+      
+}
+
+
+h2{
+    font-size: 2rem;
+    color: rgb(199, 194, 153);
+}
+.text-input:focus{
+    border-bottom: 2px rgba(41, 150, 41, 0.651) solid;
+   outline: none;
+}
+
+.SubmitBtn,
+.clearBtn{
+    padding: 6px 16px;
+    border-radius: 10%;
+    background-color: rgba(20, 24, 21, 0.76);
+    color: azure;
+    display: block;
+    font-family: 'Lobster', cursive;
+    font-size: 1em;
+}
+
+.TaskList{
+    position: relative;
+    width: 43%;
+}
+
+.remove-task{
+    position: absolute;
+    right: 0;
+}
+.remove-task:hover{
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 2rem;
+    transition-duration: 0.5s;
+    transition: 0.5s all;
+}
+.tasks{
+    margin-bottom: 2%;
+}
+
+.Clear{
+    text-align: center
+}
